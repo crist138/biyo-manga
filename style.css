@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+	background-image: url(img/miku.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 85px;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.title{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	height: 50px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spotify{
+	height: 80px;
+	width: 300px;
+	padding: 15px;
+	position: fixed;
+	left: 78%;
+	right: 78%;
+	bottom: 25px;
+	z-index: 0;
+
+}
